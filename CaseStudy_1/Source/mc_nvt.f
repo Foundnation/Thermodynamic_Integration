@@ -22,15 +22,18 @@ c__________________________________________________________________________
  
       IMPLICIT NONE
       INTEGER iseed, equil, prod, nsamp, ii, icycl, ndispl, attempt, 
-     &        nacc, ncycl, nmoves, imove
+     &        nacc, ncycl, nmoves, imove, temp
       DOUBLE PRECISION en, ent, vir, virt, dr, Lambda, derEn
+      DOUBLE PRECISION avgNumer, avgDenom, avgEnsemble
  
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
-      CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda)
+      CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda, temp)
       nmoves = ndispl
 c     ---total energy of the system
       CALL TOTERG(en, vir, Lambda, derEn)
+      avgNumer = 0.0
+      avgDenom = 0.0
       WRITE (6, 99001) en, vir
 c     ---start MC-cycle
       DO ii = 1, 2
@@ -69,6 +72,8 @@ c              ---adjust maximum displacements
      &                               100.*FLOAT(nacc)/FLOAT(attempt)
 c           ---test total energy
             CALL TOTERG(ent, virt, Lambda, derEn)
+            avgNumer = avgNumer + derEn*exponent(-en/temp)
+            avgDenom = avgDenom + exponent(-en/temp)
 c            Lambda = Lambda + 1 / ncycl
 c            WRITE (6,*) Lambda
             IF (ABS(ent-en).GT.1.D-6) THEN
@@ -80,11 +85,13 @@ c            WRITE (6,*) Lambda
      &                    ' ######### PROBLEMS VIRIAL ################ '
             END IF
             WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir,
-     &      derEn
+     &      derEn, avgEnsemble 
          END IF
       END DO
       CALL STORE(21, dr)
       STOP
+
+      avgEnsemble = avgNumer/avgDenom
       
  
 99001 FORMAT (' Total energy initial configuration: ', f12.5, /, 
@@ -95,6 +102,7 @@ c            WRITE (6,*) Lambda
      &        ' Total virial end of simulation    : ', f12.5, /, 
      &        '       running virial              : ', f12.5, /,
      &        '       difference                  :  ', e12.5 /,
+     &        ' Ensemble average of derEn         : ', f12.5  /,
      &        ' Total derivative of energy derEn  : ', f12.5)
 99003 FORMAT (' Number of att. to displ. a part.  : ', i10, /, 
      &        ' success: ', i10, '(= ', f5.2, '%)')

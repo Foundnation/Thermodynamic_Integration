@@ -22,7 +22,7 @@ def change_lambda(file_path, lambd: str or float):
         lines = file.readlines()
     
     rho = '{rho}'
-    lines[13] = f'  100   2.0  ${rho} {lambd}\n'
+    lines[13] = f'  500   2.0  ${rho} {lambd}\n'
 
     with open(file_path, 'w') as file:
         file.writelines(lines)

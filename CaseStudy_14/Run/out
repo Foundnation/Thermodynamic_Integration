@@ -1,0 +1,96 @@
+ --- rho 0.4 
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ **************** MC_NVT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.64798991631945657     
+  i,ranf()            2  0.99974224633702391     
+  i,ranf()            3   5.5636647793555594E-002
+  i,ranf()            4  0.66182696684289766     
+  i,ranf()            5  0.66446693042960669     
+  read conf from disk 
+ Requested density:  0.40 different from density on disk:  0.70
+ Rescaling of coordinates!
+  Number of equilibration cycles             :         0
+  Number of production cycles                :       500
+  Sample frequency                           :         5
+  Number of test part. insertion per sample  :        10
+
+  Number of att. to displ. a part. per cycle :        50
+  Maximum displacement                       :     0.296
+
+
+  Number of particles                        :       100
+  Temperature                                :     2.000
+  Density                                    :     0.400
+  Box length                                 :    10.772
+
+  Model parameters: 
+     epsilon: 1.000
+     sigma  : 1.000
+     mass   : 1.000
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     5.000
+ Tail corrections:   energy =     -0.027 pressure     -0.021
+
+
+ Total energy initial configuration:    -12.77710
+ Total virial initial configuration:    -72.85879
+ ======>> Done          100  out of          500
+ Max. displ. set to :  0.444 (old :  0.296)
+ Frac. acc.: 0.97 attempts:    5000 succes:    4857
+ ======>> Done          200  out of          500
+ Max. displ. set to :  0.667 (old :  0.444)
+ Frac. acc.: 0.90 attempts:    5000 succes:    4505
+ ======>> Done          300  out of          500
+ Max. displ. set to :  1.000 (old :  0.667)
+ Frac. acc.: 0.85 attempts:    5000 succes:    4266
+ ======>> Done          400  out of          500
+ Max. displ. set to :  1.500 (old :  1.000)
+ Frac. acc.: 0.78 attempts:    5000 succes:    3913
+ ======>> Done          500  out of          500
+ Max. displ. set to :  2.187 (old :  1.500)
+ Frac. acc.: 0.73 attempts:    5000 succes:    3646
+ Number of att. to displ. a part.  :      25000
+ success:      21187(= 84.75%)
+ Total energy end of simulation    :    -57.40833
+       running energy              :    -57.40833
+       difference                  :  -0.10658E-12
+ Total virial end of simulation    :    -49.20679
+       running virial              :    -49.20679
+       difference                  :   0.28422E-11
+ Results Widom test particle method : 
+ Number of samples         :        1000 Excess chemical potential :      -0.148
+  write results f-g sampling 
+  Number of samples test particles         1000
+  Number of samples real particles        25000
+  ***** Calculate block averages ************
+   number of averages  2
+ block data     1  -0.169386   0.133813
+ block data     2  -0.262975   0.131301
+ block data     3  -0.298495   0.149770
+ block data     4  -0.344624   0.146154
+ block data     5  -0.364554   0.166302
+ block data     6  -0.452470   0.155558
+ block data     7  -0.465246   0.132542
+ block data     8  -0.506574   0.149931
+ block data     9  -0.438969   0.168126
+ block data    10  -0.485264   0.126646
+ block data    11  -0.482488   0.140269
+ block data    12  -0.443016   0.161773
+ block data    13  -0.484934   0.154504
+ block data    14  -0.542901   0.133998
+ block data    15  -0.608228   0.148424
+ block data    16  -0.621052   0.138961
+ block data    17  -0.560806   0.152849
+ block data    18  -0.599082   0.125525
+ block data    19  -0.508986   0.156475
+ block data    20  -0.575356   0.146705
+ ###### energy       -0.46077036         0.02770616
+ ###### press         0.14598123         0.00461792
+   number of blocks  100
+         0   0.0125   0.0009   0.0021   0.0001
+         1   0.0173   0.0017   0.0024   0.0002
+         2   0.0243   0.0035   0.0025   0.0004
+         3   0.0352   0.0075   0.0024   0.0005
+         4   0.0496   0.0157   0.0022   0.0007
+         5   0.0715   0.0358   0.0016   0.0008
