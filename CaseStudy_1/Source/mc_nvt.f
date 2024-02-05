@@ -28,12 +28,13 @@ c__________________________________________________________________________
  
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
-      CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda, temp)
+      CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda)
       nmoves = ndispl
 c     ---total energy of the system
       CALL TOTERG(en, vir, Lambda, derEn)
       avgNumer = 0.0
       avgDenom = 0.0
+      temp = 2.0
       WRITE (6, 99001) en, vir
 c     ---start MC-cycle
       DO ii = 1, 2

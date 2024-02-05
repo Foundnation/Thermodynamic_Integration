@@ -1,191 +1,5 @@
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
- **************** MC_NVT ***************
-  ******** test random numbers ***********
-  i,ranf()            1  0.11180420853611572     
-  i,ranf()            2  0.74166310703406746     
-  i,ranf()            3  0.46027934237707857     
-  i,ranf()            4  0.11380693953292953     
-  i,ranf()            5  0.54839950623688738     
- Initialisation on lattice: 
-       500 particles placed on a lattice
-  Number of equilibration cycles             :         0
-  Number of production cycles                :       500
-  Sample frequency                           :         1
-
-  Number of att. to displ. a part. per cycle :        50
-  Maximum displacement                       :     0.040
-
-
-  Number of particles                        :       500
-  Temperature                                :     2.000
-  Density                                    :     0.700
-  Box length                                 :     8.939
-
-  Model parameters: 
-     epsilon: 1.000
-     sigma  : 1.000
-     mass   : 1.000
- Simulations with tail correction: 
- Potential truncated at  Rc =:     4.470
- Tail corrections:   energy =     -0.000 pressure     -0.092
-
-
- Total energy initial configuration:  -2612.64353
- Total virial initial configuration:  -5904.29002
- ======>> Done          100  out of          500
- Max. displ. set to :  0.060 (old :  0.040)
- Frac. acc.: 0.98 attempts:    5000 succes:    4903
- ======>> Done          200  out of          500
- Max. displ. set to :  0.090 (old :  0.060)
- Frac. acc.: 0.93 attempts:    5000 succes:    4668
- ======>> Done          300  out of          500
- Max. displ. set to :  0.135 (old :  0.090)
- Frac. acc.: 0.84 attempts:    5000 succes:    4181
- ======>> Done          400  out of          500
- Max. displ. set to :  0.199 (old :  0.135)
- Frac. acc.: 0.74 attempts:    5000 succes:    3688
- ======>> Done          500  out of          500
- Max. displ. set to :  0.246 (old :  0.199)
- Frac. acc.: 0.62 attempts:    5000 succes:    3092
- Number of att. to displ. a part.  :      25000
- success:      20532(= 82.13%)
- Total energy end of simulation    :  -2001.75143
-       running energy              :  -2001.75143
-       difference                  :  -0.23192E-10
- Total virial end of simulation    :   5034.16251
-       running virial              :   5034.16251
-       difference                  :  -0.18190E-11
- Ensemble average of derEn         :    -12.14107
- Total derivative of energy derEn  :    -12.14107
-  ***** Calculate block averages ************
-   number of averages            2
- block data     1  -5.199429  -1.338437
- block data     2  -5.147431  -1.120128
- block data     3  -5.083850  -0.855634
- block data     4  -5.015533  -0.582689
- block data     5  -4.921207  -0.213856
- block data     6  -4.809914   0.223779
- block data     7  -4.746293   0.468235
- block data     8  -4.649341   0.842943
- block data     9  -4.519915   1.330087
- block data    10  -4.372221   1.878917
- block data    11  -4.346514   2.034065
- block data    12  -4.231784   2.485525
- block data    13  -4.142408   2.825168
- block data    14  -4.065799   3.152264
- block data    15  -3.957060   3.606864
- block data    16  -3.937217   3.675114
- block data    17  -3.929289   3.694278
- block data    18  -3.997541   3.491067
- block data    19  -4.004220   3.493459
- block data    20  -4.017582   3.539752
- ###### energy       -4.45472740         0.09930475
- ###### press         1.63153860         0.39614759
-   number of blocks          500
-         0   0.0199   0.0006   0.0793   0.0025
-         1   0.0281   0.0013   0.1123   0.0050
-         2   0.0399   0.0025   0.1591   0.0101
-         3   0.0568   0.0051   0.2265   0.0205
-         4   0.0810   0.0105   0.3228   0.0417
-         5   0.1183   0.0224   0.4698   0.0888
-         6   0.1778   0.0513   0.7037   0.2031
-         7   0.2726   0.1363   1.0750   0.5375
- --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
- **************** MC_NVT ***************
-  ******** test random numbers ***********
-  i,ranf()            1  0.11180420853611572     
-  i,ranf()            2  0.74166310703406746     
-  i,ranf()            3  0.46027934237707857     
-  i,ranf()            4  0.11380693953292953     
-  i,ranf()            5  0.54839950623688738     
- Initialisation on lattice: 
-       500 particles placed on a lattice
-  Number of equilibration cycles             :         0
-  Number of production cycles                :       500
-  Sample frequency                           :         1
-
-  Number of att. to displ. a part. per cycle :        50
-  Maximum displacement                       :     0.040
-
-
-  Number of particles                        :       500
-  Temperature                                :     2.000
-  Density                                    :     0.700
-  Box length                                 :     8.939
-
-  Model parameters: 
-     epsilon: 1.000
-     sigma  : 1.000
-     mass   : 1.000
- Simulations with tail correction: 
- Potential truncated at  Rc =:     4.470
- Tail corrections:   energy =     -0.000 pressure     -0.092
-
-
- Total energy initial configuration:  -2612.64353
- Total virial initial configuration:  -5904.29002
- ======>> Done          100  out of          500
- Max. displ. set to :  0.060 (old :  0.040)
- Frac. acc.: 0.98 attempts:    5000 succes:    4903
- ======>> Done          200  out of          500
- Max. displ. set to :  0.090 (old :  0.060)
- Frac. acc.: 0.93 attempts:    5000 succes:    4668
- ======>> Done          300  out of          500
- Max. displ. set to :  0.135 (old :  0.090)
- Frac. acc.: 0.84 attempts:    5000 succes:    4181
- ======>> Done          400  out of          500
- Max. displ. set to :  0.199 (old :  0.135)
- Frac. acc.: 0.74 attempts:    5000 succes:    3688
- ======>> Done          500  out of          500
- Max. displ. set to :  0.246 (old :  0.199)
- Frac. acc.: 0.62 attempts:    5000 succes:    3092
- Number of att. to displ. a part.  :      25000
- success:      20532(= 82.13%)
- Total energy end of simulation    :  -2001.75143
-       running energy              :  -2001.75143
-       difference                  :  -0.23192E-10
- Total virial end of simulation    :   5034.16251
-       running virial              :   5034.16251
-       difference                  :  -0.18190E-11
- Ensemble average of derEn         :    -12.14107
- Total derivative of energy derEn  :      0.00000
-  ***** Calculate block averages ************
-   number of averages            2
- block data     1  -5.199429  -1.338437
- block data     2  -5.147431  -1.120128
- block data     3  -5.083850  -0.855634
- block data     4  -5.015533  -0.582689
- block data     5  -4.921207  -0.213856
- block data     6  -4.809914   0.223779
- block data     7  -4.746293   0.468235
- block data     8  -4.649341   0.842943
- block data     9  -4.519915   1.330087
- block data    10  -4.372221   1.878917
- block data    11  -4.346514   2.034065
- block data    12  -4.231784   2.485525
- block data    13  -4.142408   2.825168
- block data    14  -4.065799   3.152264
- block data    15  -3.957060   3.606864
- block data    16  -3.937217   3.675114
- block data    17  -3.929289   3.694278
- block data    18  -3.997541   3.491067
- block data    19  -4.004220   3.493459
- block data    20  -4.017582   3.539752
- ###### energy       -4.45472740         0.09930475
- ###### press         1.63153860         0.39614759
-   number of blocks          500
-         0   0.0199   0.0006   0.0793   0.0025
-         1   0.0281   0.0013   0.1123   0.0050
-         2   0.0399   0.0025   0.1591   0.0101
-         3   0.0568   0.0051   0.2265   0.0205
-         4   0.0810   0.0105   0.3228   0.0417
-         5   0.1183   0.0224   0.4698   0.0888
-         6   0.1778   0.0513   0.7037   0.2031
-         7   0.2726   0.1363   1.0750   0.5375
- --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -278,7 +92,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0012   0.0003   0.0013   0.0004
          7   0.0010   0.0005   0.0013   0.0006
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -371,7 +185,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0015   0.0004   0.0015   0.0004
          7   0.0013   0.0007   0.0017   0.0008
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -464,7 +278,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0018   0.0005   0.0017   0.0005
          7   0.0017   0.0008   0.0021   0.0010
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -557,7 +371,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0022   0.0006   0.0018   0.0005
          7   0.0021   0.0010   0.0025   0.0013
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -650,7 +464,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0026   0.0007   0.0019   0.0005
          7   0.0026   0.0013   0.0030   0.0015
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -743,7 +557,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0030   0.0009   0.0020   0.0006
          7   0.0031   0.0015   0.0034   0.0017
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -836,7 +650,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0034   0.0010   0.0022   0.0006
          7   0.0036   0.0018   0.0039   0.0019
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -929,7 +743,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0039   0.0011   0.0024   0.0007
          7   0.0042   0.0021   0.0043   0.0021
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1022,7 +836,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0043   0.0013   0.0027   0.0008
          7   0.0049   0.0024   0.0046   0.0023
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1115,7 +929,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0049   0.0014   0.0029   0.0008
          7   0.0055   0.0028   0.0049   0.0024
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1208,7 +1022,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0053   0.0015   0.0039   0.0011
          7   0.0064   0.0032   0.0057   0.0028
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1301,7 +1115,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0057   0.0016   0.0051   0.0015
          7   0.0071   0.0036   0.0059   0.0029
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1394,7 +1208,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0060   0.0017   0.0069   0.0020
          7   0.0079   0.0039   0.0058   0.0029
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1487,7 +1301,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0065   0.0019   0.0079   0.0023
          7   0.0086   0.0043   0.0057   0.0028
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1580,7 +1394,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0072   0.0021   0.0080   0.0023
          7   0.0094   0.0047   0.0055   0.0028
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1673,7 +1487,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0076   0.0022   0.0098   0.0028
          7   0.0102   0.0051   0.0054   0.0027
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1766,7 +1580,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0079   0.0023   0.0122   0.0035
          7   0.0110   0.0055   0.0049   0.0024
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1859,7 +1673,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0082   0.0024   0.0137   0.0040
          7   0.0116   0.0058   0.0041   0.0021
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -1952,7 +1766,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0085   0.0025   0.0174   0.0050
          7   0.0127   0.0064   0.0045   0.0023
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2045,7 +1859,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0084   0.0024   0.0225   0.0065
          7   0.0134   0.0067   0.0037   0.0018
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2138,7 +1952,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0088   0.0025   0.0244   0.0070
          7   0.0141   0.0070   0.0036   0.0018
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2231,7 +2045,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0090   0.0026   0.0280   0.0081
          7   0.0148   0.0074   0.0042   0.0021
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2324,7 +2138,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0097   0.0028   0.0287   0.0083
          7   0.0155   0.0077   0.0053   0.0027
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2417,7 +2231,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0101   0.0029   0.0310   0.0089
          7   0.0160   0.0080   0.0077   0.0038
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2510,7 +2324,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0100   0.0029   0.0361   0.0104
          7   0.0165   0.0083   0.0101   0.0051
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2603,7 +2417,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0099   0.0029   0.0413   0.0119
          7   0.0167   0.0084   0.0143   0.0071
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2696,7 +2510,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0097   0.0028   0.0483   0.0140
          7   0.0169   0.0085   0.0186   0.0093
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2789,7 +2603,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0098   0.0028   0.0527   0.0152
          7   0.0172   0.0086   0.0225   0.0112
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2882,7 +2696,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0097   0.0028   0.0573   0.0165
          7   0.0173   0.0087   0.0267   0.0133
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -2975,7 +2789,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0096   0.0028   0.0603   0.0174
          7   0.0171   0.0086   0.0328   0.0164
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3068,7 +2882,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0095   0.0027   0.0634   0.0183
          7   0.0169   0.0084   0.0390   0.0195
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3161,7 +2975,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0092   0.0027   0.0734   0.0212
          7   0.0166   0.0083   0.0451   0.0225
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3254,7 +3068,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0089   0.0026   0.0808   0.0233
          7   0.0161   0.0080   0.0523   0.0261
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3347,7 +3161,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0090   0.0026   0.0898   0.0259
          7   0.0155   0.0078   0.0598   0.0299
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3440,7 +3254,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0091   0.0026   0.0994   0.0287
          7   0.0146   0.0073   0.0689   0.0344
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3533,7 +3347,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0093   0.0027   0.1075   0.0310
          7   0.0137   0.0069   0.0782   0.0391
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3626,7 +3440,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0096   0.0028   0.1156   0.0334
          7   0.0125   0.0062   0.0888   0.0444
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3719,7 +3533,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0097   0.0028   0.1224   0.0353
          7   0.0113   0.0057   0.0989   0.0494
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3812,7 +3626,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0113   0.0032   0.1350   0.0390
          7   0.0098   0.0049   0.1109   0.0554
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3905,7 +3719,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0104   0.0030   0.1388   0.0401
          7   0.0086   0.0043   0.1233   0.0617
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -3998,7 +3812,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0122   0.0035   0.1502   0.0433
          7   0.0078   0.0039   0.1349   0.0675
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4091,7 +3905,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0134   0.0039   0.1596   0.0461
          7   0.0072   0.0036   0.1471   0.0736
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4184,7 +3998,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0142   0.0041   0.1678   0.0484
          7   0.0072   0.0036   0.1602   0.0801
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4277,7 +4091,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0163   0.0047   0.1797   0.0519
          7   0.0082   0.0041   0.1745   0.0873
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4370,7 +4184,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0173   0.0050   0.1880   0.0543
          7   0.0100   0.0050   0.1899   0.0950
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4463,7 +4277,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0200   0.0058   0.2002   0.0578
          7   0.0123   0.0061   0.2054   0.1027
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4556,7 +4370,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0207   0.0060   0.2060   0.0595
          7   0.0154   0.0077   0.2229   0.1115
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4649,7 +4463,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0228   0.0066   0.2156   0.0622
          7   0.0174   0.0087   0.2334   0.1167
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4742,7 +4556,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0254   0.0073   0.2266   0.0654
          7   0.0207   0.0104   0.2493   0.1246
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4835,7 +4649,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0289   0.0083   0.2412   0.0696
          7   0.0252   0.0126   0.2696   0.1348
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -4928,7 +4742,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0296   0.0085   0.2460   0.0710
          7   0.0272   0.0136   0.2799   0.1400
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5021,7 +4835,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0304   0.0088   0.2496   0.0721
          7   0.0292   0.0146   0.2902   0.1451
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5114,7 +4928,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0327   0.0094   0.2608   0.0753
          7   0.0344   0.0172   0.3119   0.1559
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5207,7 +5021,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0352   0.0102   0.2704   0.0781
          7   0.0385   0.0192   0.3286   0.1643
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5300,7 +5114,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0385   0.0111   0.2850   0.0823
          7   0.0434   0.0217   0.3496   0.1748
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5393,7 +5207,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0417   0.0120   0.2974   0.0859
          7   0.0491   0.0246   0.3721   0.1861
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5486,7 +5300,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0450   0.0130   0.3089   0.0892
          7   0.0552   0.0276   0.3948   0.1974
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5579,7 +5393,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0494   0.0143   0.3245   0.0937
          7   0.0585   0.0292   0.4079   0.2039
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5672,7 +5486,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0527   0.0152   0.3374   0.0974
          7   0.0651   0.0326   0.4325   0.2163
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5765,7 +5579,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0556   0.0161   0.3480   0.1005
          7   0.0707   0.0354   0.4539   0.2270
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5858,7 +5672,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0591   0.0171   0.3606   0.1041
          7   0.0762   0.0381   0.4731   0.2365
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -5951,7 +5765,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0630   0.0182   0.3752   0.1083
          7   0.0827   0.0414   0.4983   0.2491
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6044,7 +5858,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0673   0.0194   0.3895   0.1124
          7   0.0888   0.0444   0.5188   0.2594
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6137,7 +5951,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0708   0.0204   0.4015   0.1159
          7   0.0947   0.0473   0.5391   0.2695
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6230,7 +6044,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0728   0.0210   0.4077   0.1177
          7   0.0983   0.0492   0.5510   0.2755
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6323,7 +6137,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0787   0.0227   0.4277   0.1235
          7   0.1043   0.0521   0.5724   0.2862
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6416,7 +6230,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0823   0.0238   0.4393   0.1268
          7   0.1088   0.0544   0.5866   0.2933
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6509,7 +6323,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0886   0.0256   0.4627   0.1336
          7   0.1181   0.0590   0.6194   0.3097
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6602,7 +6416,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0910   0.0263   0.4680   0.1351
          7   0.1246   0.0623   0.6413   0.3207
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6695,7 +6509,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.0956   0.0276   0.4825   0.1393
          7   0.1315   0.0657   0.6638   0.3319
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6788,7 +6602,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1003   0.0289   0.4967   0.1434
          7   0.1376   0.0688   0.6822   0.3411
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6881,7 +6695,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1012   0.0292   0.4979   0.1437
          7   0.1448   0.0724   0.7056   0.3528
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -6974,7 +6788,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1037   0.0299   0.5052   0.1458
          7   0.1509   0.0755   0.7267   0.3634
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7067,7 +6881,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1096   0.0316   0.5232   0.1510
          7   0.1601   0.0800   0.7565   0.3783
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7160,7 +6974,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1140   0.0329   0.5371   0.1551
          7   0.1647   0.0824   0.7701   0.3850
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7253,7 +7067,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1203   0.0347   0.5554   0.1603
          7   0.1718   0.0859   0.7898   0.3949
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7346,7 +7160,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1243   0.0359   0.5666   0.1636
          7   0.1795   0.0897   0.8121   0.4060
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7439,7 +7253,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1276   0.0368   0.5755   0.1661
          7   0.1861   0.0931   0.8333   0.4166
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7532,7 +7346,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1303   0.0376   0.5802   0.1675
          7   0.1926   0.0963   0.8520   0.4260
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7625,7 +7439,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1338   0.0386   0.5912   0.1707
          7   0.2000   0.1000   0.8755   0.4377
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7718,7 +7532,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1399   0.0404   0.6090   0.1758
          7   0.2093   0.1046   0.9036   0.4518
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7811,7 +7625,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1416   0.0409   0.6093   0.1759
          7   0.2133   0.1067   0.9114   0.4557
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7904,7 +7718,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1470   0.0424   0.6256   0.1806
          7   0.2235   0.1118   0.9436   0.4718
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -7997,7 +7811,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1491   0.0430   0.6288   0.1815
          7   0.2260   0.1130   0.9487   0.4743
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8090,7 +7904,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1538   0.0444   0.6412   0.1851
          7   0.2337   0.1168   0.9687   0.4844
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8183,7 +7997,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1568   0.0453   0.6498   0.1876
          7   0.2372   0.1186   0.9769   0.4885
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8276,7 +8090,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1622   0.0468   0.6639   0.1916
          7   0.2467   0.1234   1.0051   0.5026
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8369,7 +8183,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1629   0.0470   0.6643   0.1918
          7   0.2505   0.1252   1.0136   0.5068
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8462,7 +8276,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1696   0.0490   0.6837   0.1974
          7   0.2600   0.1300   1.0423   0.5212
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
@@ -8555,7 +8369,7 @@ Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZER
          6   0.1740   0.0502   0.6951   0.2007
          7   0.2631   0.1315   1.0468   0.5234
  --- rho 0.7 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
  **************** MC_NVT ***************
   ******** test random numbers ***********
   i,ranf()            1  0.11180420853611572     
