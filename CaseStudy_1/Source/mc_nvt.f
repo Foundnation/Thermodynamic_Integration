@@ -23,14 +23,14 @@ c__________________________________________________________________________
       IMPLICIT NONE
       INTEGER iseed, equil, prod, nsamp, ii, icycl, ndispl, attempt, 
      &        nacc, ncycl, nmoves, imove
-      DOUBLE PRECISION en, ent, vir, virt, dr, Lambda
+      DOUBLE PRECISION en, ent, vir, virt, dr, Lambda, derEn
  
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
       CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda)
       nmoves = ndispl
 c     ---total energy of the system
-      CALL TOTERG(en, vir, Lambda)
+      CALL TOTERG(en, vir, Lambda, derEn)
       WRITE (6, 99001) en, vir
 c     ---start MC-cycle
       DO ii = 1, 2
@@ -50,7 +50,7 @@ c        ---intialize the subroutine that adjust the maximum displacement
          DO icycl = 1, ncycl
             DO imove = 1, nmoves
 c              ---attempt to displace a particle
-               CALL MCMOVE(en, vir, attempt, nacc, dr, iseed)
+               CALL MCMOVE(en, vir, attempt, nacc, dr, Lambda, derEn)
             END DO
             IF (ii.EQ.2) THEN
 c              ---sample averages
@@ -68,7 +68,7 @@ c              ---adjust maximum displacements
             IF (attempt.NE.0) WRITE (6, 99003) attempt, nacc, 
      &                               100.*FLOAT(nacc)/FLOAT(attempt)
 c           ---test total energy
-            CALL TOTERG(ent, virt, Lambda)
+            CALL TOTERG(ent, virt, Lambda, derEn)
 c            Lambda = Lambda + 1 / ncycl
 c            WRITE (6,*) Lambda
             IF (ABS(ent-en).GT.1.D-6) THEN
@@ -79,7 +79,8 @@ c            WRITE (6,*) Lambda
                WRITE (6, *) 
      &                    ' ######### PROBLEMS VIRIAL ################ '
             END IF
-            WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir
+            WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir,
+     &      derEn
          END IF
       END DO
       CALL STORE(21, dr)
@@ -92,8 +93,9 @@ c            WRITE (6,*) Lambda
      &        '       running energy              : ', f12.5, /, 
      &        '       difference                  :  ', e12.5, /, 
      &        ' Total virial end of simulation    : ', f12.5, /, 
-     &        '       running virial              : ', f12.5, /, 
-     &        '       difference                  :  ', e12.5)
+     &        '       running virial              : ', f12.5, /,
+     &        '       difference                  :  ', e12.5 /,
+     &        ' Total derivative of energy derEn  : ', f12.5)
 99003 FORMAT (' Number of att. to displ. a part.  : ', i10, /, 
      &        ' success: ', i10, '(= ', f5.2, '%)')
       END
