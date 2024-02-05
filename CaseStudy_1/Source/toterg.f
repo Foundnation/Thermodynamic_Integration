@@ -15,7 +15,7 @@ c
       INCLUDE 'system.inc'
  
       DOUBLE PRECISION xi, yi, zi, Ener, eni, CORU, viri, Vir, rho
-      DOUBLE PRECISION Lambda, derEn
+      DOUBLE PRECISION Lambda, derEn, derEni
       INTEGER i, jb
  
       Ener = 0
@@ -25,9 +25,10 @@ c
          yi = Y(i)
          zi = Z(i)
          jb = i + 1
-         CALL ENERI(xi, yi, zi, i, jb, eni, viri, Lambda, derEn)
+         CALL ENERI(xi, yi, zi, i, jb, eni, viri, Lambda, derEni)
          Ener = Ener + eni
          Vir = Vir + viri
+         derEn = derEn + derEni
       END DO
 c     ---add tail corrections
       IF (TAILCO) THEN
