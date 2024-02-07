@@ -87,7 +87,6 @@ c            WRITE (6,*) Lambda
       STOP
 
       
-      IF (ii.EQ.2) THEN
 99001 FORMAT (' Total energy initial configuration: ', f12.5, /, 
      &        ' Total virial initial configuration: ', f12.5)
 99002 FORMAT (' Total energy end of simulation    : ', f12.5, /, 
@@ -99,6 +98,5 @@ c            WRITE (6,*) Lambda
      &        ' Total derivative of energy derEn  : ', f12.5)
 99003 FORMAT (' Number of att. to displ. a part.  : ', i10, /, 
      &        ' success: ', i10, '(= ', f5.2, '%)')
-      ENDIF
 
       END

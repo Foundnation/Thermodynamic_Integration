@@ -1,5 +1,5 @@
 **==eneri.spg  processed by SPAG 4.52O  at 18:54 on 27 Mar 1996
-      SUBROUTINE ENERI(Xi, Yi, Zi, I, Jb, En, Vir, Lambda, derEn)
+      SUBROUTINE ENERI(Xi, Yi, Zi, I, Jb, En, Vir, Lambda, derEni)
 c
 c    calculates the energy of particle I with particles j=jb,npart
 c
