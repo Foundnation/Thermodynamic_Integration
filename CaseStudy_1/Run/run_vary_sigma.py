@@ -32,7 +32,8 @@ def change_sigma(file_path, sigma: str or float):
         file.writelines(lines)
 
 step = 0.25
-for i in np.arange(0.1, 3.0 + step , step):
+sigma_values = np.arange(0.25, 2.0 + step , step)
+for i in sigma_values:
     change_sigma(param_path, i)
     subprocess.run(["python", run_vary_lambda_path], cwd=working_directory)
     subprocess.run(["python", parser_path], cwd=working_directory)
@@ -44,6 +45,8 @@ for i in np.arange(0.1, 3.0 + step , step):
     with open(output_path + 'der_energies_' + str(i), 'w') as file:
         file.writelines(total_energies)
     
+    if i == sigma_values[-2]:
+        continue
     with open(out_path, 'w'):
         pass                 # this clears Fortran 'out'
                              # otherwise new data will be appended to old

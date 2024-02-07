@@ -31,7 +31,7 @@ c     ---initialize sysem
       nmoves = ndispl
 c     ---total energy of the system
       CALL TOTERG(en, vir, Lambda, derEn)
-      WRITE (6, 99001) en, vir
+      WRITE (6, 99001) en, vir, Lambda
 c     ---start MC-cycle
       DO ii = 1, 2
 c        --- ii=1 equilibration
@@ -80,7 +80,7 @@ c            WRITE (6,*) Lambda
      &                    ' ######### PROBLEMS VIRIAL ################ '
             END IF
             WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir,
-     &      derEn 
+     &      derEn, prod
          END IF
       END DO
       CALL STORE(21, dr)
@@ -88,14 +88,16 @@ c            WRITE (6,*) Lambda
 
       
 99001 FORMAT (' Total energy initial configuration: ', f12.5, /, 
-     &        ' Total virial initial configuration: ', f12.5)
+     &        ' Total virial initial configuration: ', f12.5, /,
+     &        ' Lambda                            : ', f12.5)
 99002 FORMAT (' Total energy end of simulation    : ', f12.5, /, 
      &        '       running energy              : ', f12.5, /, 
      &        '       difference                  :  ', e12.5, /, 
      &        ' Total virial end of simulation    : ', f12.5, /, 
      &        '       running virial              : ', f12.5, /,
      &        '       difference                  :  ', e12.5 /,
-     &        ' Total derivative of energy derEn  : ', f12.5)
+     &        ' Total derivative of energy derEn  : ', f12.5  /,
+     &        ' PROD                              : ', i10)
 99003 FORMAT (' Number of att. to displ. a part.  : ', i10, /, 
      &        ' success: ', i10, '(= ', f5.2, '%)')
 

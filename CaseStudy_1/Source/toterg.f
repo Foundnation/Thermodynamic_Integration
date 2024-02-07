@@ -49,7 +49,7 @@ c     ---add tail corrections
       IF (TAILCO) THEN
          rho = NPART/(BOX**3)
          Ener = Ener + NPART*CORU(RC, rho, Lambda)
-         derEn = derEn + NPART*CORD
+c         derEn = derEn + NPART*CORD
       END IF
       RETURN
       END

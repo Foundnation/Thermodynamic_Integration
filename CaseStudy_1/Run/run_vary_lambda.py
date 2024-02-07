@@ -22,12 +22,12 @@ def change_lambda(file_path, lambd: str or float):
         lines = file.readlines()
     
     rho = '{rho}'
-    lines[13] = f'  200   2.0  ${rho} {lambd}\n'
+    lines[13] = f'  100   2.0  ${rho} {lambd}\n'
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
 
-step = 0.01
+step = 0.005
 for i in np.arange(0.1, 1 + step , step):
     change_lambda(run_path, i)
     subprocess.run(['sudo', run_path], cwd=working_directory)
