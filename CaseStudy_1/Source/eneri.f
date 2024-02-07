@@ -20,7 +20,7 @@ c
       INCLUDE 'system.inc'
  
       DOUBLE PRECISION Xi, Yi, Zi, En, dx, dy, dz, r2, Vir, virij, enij
-      DOUBLE PRECISION Lambda, derEn
+      DOUBLE PRECISION Lambda, derEn, derEni
       INTEGER I, j, Jb
 c
       En = 0
@@ -46,9 +46,10 @@ c
                IF (dz.LT.-HBOX) dz = dz + BOX
             END IF
             r2 = dx*dx + dy*dy + dz*dz
-            CALL ENER(enij, virij, r2, Lambda, derEn)
+            CALL ENER(enij, virij, r2, Lambda, derEni)
             En = En + enij
             Vir = Vir + virij
+            derEn = derEn + derEni
          END IF
       END DO
       RETURN
