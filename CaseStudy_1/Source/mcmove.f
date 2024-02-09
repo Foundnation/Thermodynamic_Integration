@@ -19,7 +19,7 @@ c
       INCLUDE 'conf.inc'
       INCLUDE 'system.inc'
       DOUBLE PRECISION enn, eno, En, RANF, xn, yn, zn, viro, virn, Vir, 
-     &                 Dr, Lambda, derEn
+     &                 Dr, Lambda, derEn, derEno
       INTEGER o, Attempt, Nacc, jb, Iseed
 c      DOUBLE PRECISION Lambda, derEn
  
@@ -28,7 +28,7 @@ c      DOUBLE PRECISION Lambda, derEn
 c     ---select a particle at random
       o = INT(NPART*RANF(Iseed)) + 1
 c     ---calculate energy old configuration
-      CALL ENERI(X(o), Y(o), Z(o), o, jb, eno, viro, Lambda, derEn)
+      CALL ENERI(X(o), Y(o), Z(o), o, jb, eno, viro, Lambda, derEno)
 c     ---give particle a random displacement
       xn = X(o) + (RANF(Iseed)-0.5D0)*Dr
       yn = Y(o) + (RANF(Iseed)-0.5D0)*Dr

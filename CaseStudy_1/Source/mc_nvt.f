@@ -24,7 +24,8 @@ c__________________________________________________________________________
       INTEGER iseed, equil, prod, nsamp, ii, icycl, ndispl, attempt, 
      &        nacc, ncycl, nmoves, imove
       DOUBLE PRECISION en, ent, vir, virt, dr, Lambda, derEn
- 
+      real*8 derEnsum, avgderEn
+
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
       CALL READDAT(equil, prod, nsamp, ndispl, dr, iseed, Lambda)
@@ -52,6 +53,7 @@ c        ---intialize the subroutine that adjust the maximum displacement
 c              ---attempt to displace a particle
                CALL MCMOVE(en, vir, attempt, nacc, dr, Lambda, derEn)
             END DO
+            derEnsum = derEnsum + derEn
             IF (ii.EQ.2) THEN
 c              ---sample averages
                IF (MOD(icycl,nsamp).EQ.0) CALL SAMPLE(icycl, en, vir)
@@ -79,8 +81,10 @@ c            WRITE (6,*) Lambda
                WRITE (6, *) 
      &                    ' ######### PROBLEMS VIRIAL ################ '
             END IF
+
+            !avgderEn = derEnsum / DBLE(nacc)
             WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir,
-     &      derEn, prod
+     &      derEnsum, nacc
          END IF
       END DO
       CALL STORE(21, dr)
@@ -97,7 +101,7 @@ c            WRITE (6,*) Lambda
      &        '       running virial              : ', f12.5, /,
      &        '       difference                  :  ', e12.5 /,
      &        ' Total derivative of energy derEn  : ', f12.5  /,
-     &        ' PROD                              : ', i10)
+     &        ' nacc                              : ', i10)
 99003 FORMAT (' Number of att. to displ. a part.  : ', i10, /, 
      &        ' success: ', i10, '(= ', f5.2, '%)')
 

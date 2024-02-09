@@ -1,8 +1,8 @@
 
 
-out_path = '/home/user/Documents/GitHub/Thermodynamic_Integration/CaseStudy_1/Run/out'
-data_path = '/home/user/Documents/GitHub/Thermodynamic_Integration/total_energies'
-data_path_der = '/home/user/Documents/GitHub/Thermodynamic_Integration/total_der_energies'
+out_path = '/root/Thermodynamic_Integration/CaseStudy_1/Run/out'
+data_path = '/root/Thermodynamic_Integration/CaseStudy_1/total_energies'
+data_path_der = '/root/Thermodynamic_Integration/CaseStudy_1/total_der_energies'
 data_path_avg = '/home/user/Documents/GitHub/Thermodynamic_Integration/avg_der_energies'
 
 total_energies = []
