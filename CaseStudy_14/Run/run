@@ -8,7 +8,7 @@ foreach rho (0.7 )
   ibeg  , nequil  , lmax   nsamp nghost
    0      70000       10000   1        1
   dr
-  0.01 
+  0.02 
   ndispl
   50  
 npart temp rho

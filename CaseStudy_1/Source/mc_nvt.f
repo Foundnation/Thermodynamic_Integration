@@ -24,7 +24,7 @@ c__________________________________________________________________________
       INTEGER iseed, equil, prod, nsamp, ii, icycl, ndispl, attempt, 
      &        nacc, ncycl, nmoves, imove
       DOUBLE PRECISION en, ent, vir, virt, dr, Lambda, derEn
-      real*8 derEnsum, avgderEn
+      DOUBLE PRECISION derEnsum, avgderEn
 
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
@@ -82,9 +82,9 @@ c            WRITE (6,*) Lambda
      &                    ' ######### PROBLEMS VIRIAL ################ '
             END IF
 
-            !avgderEn = derEnsum / DBLE(nacc)
+            avgderEn = derEnsum / DBLE(nacc)
             WRITE (6, 99002) ent, en, ent - en, virt, vir, virt - vir,
-     &      derEnsum, nacc
+     &      avgderEn, nacc
          END IF
       END DO
       CALL STORE(21, dr)

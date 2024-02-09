@@ -23,6 +23,10 @@ output_path = '/home/user/Documents/GitHub/Thermodynamic_Integration/main_simula
 #--------------------------------------------------------
 
 def change_sigma(file_path, sigma: str or float):
+    with open(out_path, 'w'):
+        pass                 # this clears Fortran 'out'
+                             # otherwise new data will be appended to old
+    
     with open(file_path, 'r') as file:
         lines = file.readlines()
     
@@ -32,7 +36,7 @@ def change_sigma(file_path, sigma: str or float):
         file.writelines(lines)
 
 step = 0.25
-sigma_values = np.arange(0.25, 2.0 + step , step)
+sigma_values = np.arange(0.25, 2.5 + step , step)
 for i in sigma_values:
     change_sigma(param_path, i)
     subprocess.run(["python", run_vary_lambda_path], cwd=working_directory)
@@ -47,9 +51,6 @@ for i in sigma_values:
     
     if i == sigma_values[-2]:
         continue
-    with open(out_path, 'w'):
-        pass                 # this clears Fortran 'out'
-                             # otherwise new data will be appended to old
     
     print(f'finished calculation for sigma = {i}')
 
